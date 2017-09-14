@@ -1,3 +1,12 @@
+################
+# Exercice sur les boucles et listes => SOLUTION
+################
+#
+# 1) Completez la fonction fib() pour qu'elle retourne les 25 premiers nombres de la suite de fibonacci avec "while"
+#
+# 2) Completez la fonction fib() pour qu'elle retourne les 25 premiers nombres de la suite de fibonacci avec "for"
+#
+# 3) Completez la fonction search_dic() afin qu'elle recherche l'index de la valeur 17711 par dichotomie
 
 
 # With loop "while" :
@@ -50,12 +59,8 @@ print(fibonacciList)
 print("List of 25 first Fibonacci Number with loop for :")
 print(fibonacciList2)
 
-
 # Displaying the index of the number 17711 :
 index = search_dic(17711, fibonacciList)
-print("Index of 17711 Number fonction ( - While - list):", (index + 1))
+print("Index of 17711 Number:", (index + 1))
 
-# Displaying the index of the number 17711 :
-index = search_dic(17711, fibonacciList2)
-print("Index of 17711 Number fonction  ( - For - list):", (index + 1))
 
